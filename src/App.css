@@ -5,6 +5,7 @@
 ul {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 }
 
 li {
@@ -13,5 +14,20 @@ li {
   padding: 8px;
   border: whitesmoke 3px solid;
   border-radius: 8px;
+  text-align: center;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
 }
 
